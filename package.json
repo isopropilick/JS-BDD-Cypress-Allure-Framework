@@ -1,6 +1,6 @@
 {
   "name": "js-bdd-cypress-allure-framework",
-  "version": "0.0.1-development",
+  "version": "0.0.1",
   "description": "Gherkin syntax for cypress",
   "main": "lib/index.js",
   "scripts": {
