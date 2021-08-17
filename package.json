@@ -9,7 +9,8 @@
     "test:each": "cypress run --spec \"**/*.feature\"",
     "test:debug": "jest && DEBUG=cypress:* cypress open\n",
     "fixStyle": "eslint . --fix",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "bin": {
     "cypress-tags": "cypress-tags.js"
