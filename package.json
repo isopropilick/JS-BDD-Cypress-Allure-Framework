@@ -1,0 +1,25 @@
+{
+  "name": "cucumberjs-typescript-sample-project",
+  "version": "1.0.0",
+  "description": "e2e project framework to get started",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js",
+    "lint": "tslint -p lint",
+    "generateTestReport": "node lint/support/reporter.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "@shelex/cypress-allure-plugin": "^2.10.0"
+  }
+}
